@@ -27,6 +27,6 @@ aws_secret_access_key =
 
 * Use ./deploy.py script in order to execute a blue/green deploy. Script will launch a new parallel stack with new code cloned from master branch. However, it could be improved cheking for all healthy instances before switching traffic to the new stack.
 
- usage: deploy.py <aws region>
+ usage: deploy.py <aws_region>
 
 
